@@ -23,4 +23,4 @@ before you run zwallet api, make sure you have changed the environment variable 
 
 
 ## Guide
-[DOCS ZWALLET API in Postman](https://documenter.getpostman.com/view/12622797/TVKJyvHF)
+[DOCS ZWALLET API in Postman](https://documenter.getpostman.com/view/12622797/TVRoYmro)
