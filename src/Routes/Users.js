@@ -1,6 +1,6 @@
 const express = require("express");
 const usersRouter = express.Router();
-const usersController = require("../controller/Users");
+const usersController = require("../Controller/Users");
 const authMiddleware = require("../Middleware/Auth");
 
 usersRouter.get("/" ,(req,res)=>res.send("No content available"))
