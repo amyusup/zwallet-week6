@@ -21,7 +21,7 @@ app.use(express.static('public'))
 app.use(cors());
 
 app.get('/', function (req, res) {
-  res.send('hello world..')
+  res.send('AKHIRNYA BERHASIL DI DEPLOY')
 })
 app.use("/api/v1/auth", authRoute);
 app.use("/api/v1/topup", topupRoute);
