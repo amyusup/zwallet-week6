@@ -4,7 +4,7 @@ module.exports = {
   },
 
   getUsersLike: (db, key, callback) => {
-    db.query(`SELECT id, firstName, lastName, name, phone, email, balance, photo FROM vUsers WHERE name LIKE '%${key}%' ORDER BY name ASC`, callback);
+    db.query(`SELECT id, firstName, lastName, name, phone, email, balance, photo FROM vUsers WHERE name LIKE '%${key}%' && role <> 'Adm1n' ORDER BY name ASC`, callback);
   },
 
   getUsersWhere: (db, id, callback) => {
